@@ -135,6 +135,18 @@ h2 {
   padding-left: 50px;
   padding-top: 150px;
 }
+
+h3 {
+   font-variant: normal;
+   font-size: 25px;
+   font-weight: 600;
+   text-align:left;
+   letter-spacing: 3px;
+   color: black;
+   padding-left: 50px;
+   padding-top: 20px;
+}
+
 p {
    padding-top: 10px;
    margin: 0 800px 300px 50px;
