@@ -1,0 +1,146 @@
+/*nav*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: auto;
+  width: 1200px;
+}
+
+h1 {
+   letter-spacing: 2px;
+   margin:  5vh;
+   width: 400px;
+   text-transform: uppercase;
+   font-family: 'Roboto', sans-serif;
+   font-size: 30px;
+}
+
+.topmenu{
+   position: absolute;
+   right: 40px;
+   top: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+   display: inline-block;
+}
+
+li a {
+   margin: 10px auto;
+   text-align: right;
+   float: left;
+   text-decoration: none;
+   color: grey;
+   padding: 10px 10px;
+   width:50px;
+   text-transform: lowercase;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+}
+
+li a:hover {
+    color: black;
+}
+
+/*portfolio*/
+
+@media (max-width: 1280px) {
+  body {
+    width: 800px;
+  }
+}
+@media (max-width: 880px) {
+  body {
+    width: auto;
+  }
+}
+nav, main, footer {
+  border: 1px solid #000;
+}
+
+main {
+  border: 0;
+}
+
+@media (max-width: 1280px) {
+  main {
+  }
+}
+.portfolio {
+  line-height: 0;
+}
+
+@media (max-width: 1280px) {
+  .portfolio {
+    width: auto;
+  }
+}
+.portfolio img {
+   width: 400px;
+   filter: opacity(1);
+   cursor: pointer;
+   transition: all .3s ease;
+}
+
+.portfolio img:hover {
+   filter: opacity(.5);
+}
+
+@media (max-width: 1280px) {
+  .portfolio img {
+  }
+}
+@media (max-width: 880px) {
+  .portfolio img {
+    width: 100%;
+  }
+}
+
+/*pages*/
+
+.photography img {
+  width: 45%;
+  margin: 70px 100px 0px 600px;
+  position: absolute;
+}
+
+.photography-2 img {
+   width: 45%;
+   margin: 500px 100px 0px 600px;
+   position: absolute;
+}
+
+.photography-3 img {
+   width: 45%;
+   margin: 930px 100px 0px 600px;
+   position: absolute;
+}
+
+h2 {
+  font-variant: normal;
+  font-size: 40px;
+  font-weight: 600;
+  text-align:left;
+  letter-spacing: 3px;
+  color: black;
+  padding-left: 50px;
+  padding-top: 150px;
+}
+p {
+   padding-top: 10px;
+   margin: 0 800px 300px 50px;
+   color: black;
+   font-size: 15px;
+   font-weight: 200;
+   letter-spacing:1.2px;
+   line-height:1.4;
+ }
