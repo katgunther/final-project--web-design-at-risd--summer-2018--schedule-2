@@ -159,3 +159,64 @@ p {
    letter-spacing:1.2px;
    line-height:1.4;
  }
+
+
+
+
+ .labels {
+    text-transform: uppercase;
+     font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: #000;
+ }
+
+ form {
+    width:450px;
+    margin:0 auto;
+ }
+
+ label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1.5px;
+ }
+
+
+ input, textarea {
+    width:439px;
+    height:27px;
+    background:#efefef;
+    border-radius:5px;
+    border:1px solid grey;
+    padding:5px;
+    margin-top:5px;
+    font-size: 14px;
+    color: grey;
+ }
+
+    input:focus, textarea:focus {
+       border:1px solid #efefef;
+    }
+
+ textarea {
+    height:200px;
+    font-family: 'Roboto', sans-serif;
+    background color: #efefef;
+ }
+
+ #send {
+    width:150px;
+    height:35px;
+    text-indent:-8000px;
+    border:none;
+    margin-top:10px;
+    cursor:pointer;
+    background-color: #efefef;
+    font-family: 'Raleway', sans-serif;
+    border:1px solid grey;
+
+
+ }
+ #send:hover {
+       opacity:0.5;
+    }
