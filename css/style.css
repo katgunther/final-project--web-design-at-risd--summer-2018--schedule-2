@@ -1,16 +1,126 @@
-img{
-  margin: 30px;
+#section1{
+  height: 30px;
+  font-size: 25px;
+  background-color: white;
+  width: 100%;
+  margin-top: 30px;
 }
-section{
-  height:700px;
-  font-family: 'apercu-pro', sans-serif;
-  font-weight: bold;
-  font-size: 100px;
-  margin-left: 200px;
-  margin-top:200px;
-  text-align:left;
-  vertical-align: middle;
-  line-height: 110px;
+.logo{
+ width: 30px;
+ margin-left: 30px;
+ float: left;
+ margin-top: 30px;
+}
+
+#cv ul{
+  width: 300px;
+  margin-right: 200px;
+  float: right;
+  display: flex;
+
+}
+
+#cv ul li{
+  margin-left: 50px;
+}
+
+#cv ul li a{
   color:rgb(93,126,127);
+  text-decoration: none;
+  width: 150px;
+}
+#section2{
+ /* height:400px; */
+ font-family: 'apercu-pro', sans-serif;
+ font-weight: bold;
+ font-size: 100px;
+ /* margin-left: 200px;
+ margin-top:150px; */
+ text-align:left;
+ vertical-align: middle;
+ line-height: 110px;
+ color:white;
+ background-color: rgb(93,126,127);
+ padding:150px 0px 0px 50px;
+ height: 500px;
+ /* width:100vw; height:90vh; */
+ margin-bottom: 100px;
+ margin-top: 30px;
+
+}
+  }
+}
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+    font-family: 'apercu-pro', sans-serif;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.n1 ul {
+  background: white;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+/* li {
+    color: rgb(9126,127);
+  background:white;
+    display: block;
+    float: left;
+
+    position: relative;
+    text-decoration: none;
+  transition-duration: 0.5s;
+} */
+
+li a {
+  color: rgb(93,126,127);
+}
+
+li:hover {
+    /* background: rgb(93,126,127) ; */
+    cursor: pointer;
+}
+
+ul li ul {
+    background: white;
+    visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+    position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+    left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li a{
+  text-align: center;
+  clear: both;
+  width: 100%;
+  margin-left: 100px;
+  line-height: 10px;
+}
+
+.n2 ul {
+  background: white;
+    list-style: none;
+    margin-left:1020px;
+
+    padding-left: 0px;
 
 }
