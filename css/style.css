@@ -12,7 +12,7 @@ body {
 h1 {
    letter-spacing: 2px;
    margin:  5vh;
-   width: 400px;
+   width: 500px;
    text-transform: uppercase;
    font-family: 'Raleway', sans-serif;
    font-size: 30px;
@@ -20,7 +20,7 @@ h1 {
 
 .topmenu{
    position: absolute;
-   right: 40px;
+   right: 100px;
    top: 30px;
 }
 
