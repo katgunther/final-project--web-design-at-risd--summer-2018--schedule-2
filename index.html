@@ -1,12 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width,initial-scale=1">
-   <title>DON’T FORGET TO UPDATE THIS TITLE</title>
-   <link href="css/reset.css" rel="stylesheet"><!-- DO NOT EDIT THIS LINE. -->
-   <link href="css/style.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/navigation.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Anant Singh</title>
+
+    <!-- bigslide menu -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="./node_modules/bigslide/dist/bigSlide.js"></script>
+
+    <link rel="stylesheet" href="css/bigslide-simple.css">
+
+    <!-- feather icons -->
+  <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            feather.replace()
+            $('.menu-link').bigSlide({
+                menuWidth: '100%',
+                easyClose : true,
+                afterOpen : function() {
+                    $('.menu-link').css('visibility', 'hidden')
+                },
+                afterClose : function() { 
+                    $('.menu-link').css('visibility', 'visible')
+                }
+            });
+        });
+    </script>
 </head>
-<body>
+
+
+<body class="container">
+
+
+
+    <nav class="panel" role="navigation">
+
+		<ul  id="menu">
+			<li><a class="current" href="index.html">HOME</a></li> 
+			<li><a href="about.html">ABOUT</a></li> 
+			<li><a href="works.html">WORKS</a></li> 
+		</ul>
+    </nav>
+
+
+
+    <div>
+        <a href="#menu" class="menu-link">
+            <i data-feather="menu" style="height:50px; width:50px; stroke:white;"></i>
+        </a>
+
+        <div class="title">
+            <div class="title-text-container">
+                <p class="title-text"><em>ANANT SINGH</em>
+            </div>
+
+        </div>
+    </div>
+
+
 </body>
 </html>
