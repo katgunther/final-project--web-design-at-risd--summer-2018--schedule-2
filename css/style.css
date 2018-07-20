@@ -1,0 +1,150 @@
+#cv{
+  height: 60px;
+  font-size: 25px;
+  background-color: white;
+  width: 100%;
+  border: 1px;
+  position: fixed;
+  /* margin-top: 30px; */
+}
+.logo{
+ width: 30px;
+ margin-left: 30px;
+ margin-right: 1100px;
+}
+
+#cv ul{
+  display: flex;
+}
+
+#cv ul li{
+  margin-right: 50px;
+  margin-bottom:5px;
+  margin-top: 15px;
+}
+
+#cv ul li a{
+  color:rgb(93,126,127);
+  text-decoration: none;
+  width: 700px;
+}
+
+
+#section2{
+ font-family: 'apercu-pro', sans-serif;
+ font-weight: bold;
+ font-size: 120px;
+ text-align:left;
+ vertical-align: middle;
+ line-height: 140px;
+ color:white;
+ background-color: rgb(121,164,166);
+ padding:150px 0px 0px 150px;
+ height: 500px;
+ margin-bottom: 100px;
+
+}
+
+
+.section3{
+font-family: 'apercu-pro', sans-serif;
+font-weight: bold;
+font-size: 100px;
+text-align:center;
+vertical-align: middle;
+line-height: 110px;
+color:rgb(93,126,127);
+background-color: white;
+padding:150px 0px 0px 50px;
+height: 300px;
+display: block;
+}
+
+.m{
+  border: 2px;
+  width: 350px;
+  background-color: rgba(230, 230, 230, 0.5);
+  box-shadow: 3px 3px 2px;
+  border-radius: 8px;
+  font-size: 30px;
+  color: rgb(153,153,153);
+  margin: 20px;
+
+}
+.photo{
+  width: 1000px;
+  text-align: center;
+}
+.m:hover{
+  transform: scale3d(1.1,1.1,1.1);
+}
+.section4{
+  /* position: fixed; */
+  text-align:center;
+  display: flex;
+}
+
+
+  /* a {
+  text-decoration: none;
+}
+
+nav {
+    font-family: 'apercu-pro', sans-serif;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.n1 ul {
+  background: white;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+
+
+li a {
+  color: rgb(93,126,127);
+}
+
+li:hover {
+    background: rgb(93,126,127) ;
+    cursor: pointer;
+}
+
+ul li ul {
+    background: white;
+    visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+    position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+    left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li a{
+  text-align: center;
+  clear: both;
+  width: 100%;
+  margin-left: 100px;
+  line-height: 10px;
+}
+
+.n2 ul {
+  background: white;
+    list-style: none;
+    margin-left:1020px;
+
+    padding-left: 0px;
+
+} */

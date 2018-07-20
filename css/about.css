@@ -1,0 +1,23 @@
+body{
+  background-image: url(../img/map.png);
+  background-repeat: no-repeat;
+
+  margin: 30px;
+
+}
+
+.n1{
+  margin-left: 290px;
+  margin-top: 160px;
+}
+ .n2{
+  margin-left: 1200px;
+
+}
+.n3{
+  margin-left: 250px;
+}
+img:hover{
+  transform: scale(2);
+
+}
